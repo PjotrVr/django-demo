@@ -6,3 +6,12 @@ python3 manage.py startapp <app-name>
 
 # Migrate to database schema
 python3 manage.py migrate
+
+# Open sqlite3 database
+sqlite3 db.sqlite3
+
+# Makes migrations from models, eg. <app-name>='polls'
+python3 manage.py makemigrations <app-name>
+
+# Inspect migration, eg. <app-name>='polls', number=0001
+python3 manage.py sqlmigrate <app-name> <number>
