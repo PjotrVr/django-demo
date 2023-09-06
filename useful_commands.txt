@@ -1,2 +1,5 @@
-# Starts Django server on port 8080 on IP address: 0.0.0.0
-python3 manage.py runserver 0.0.0.0:8080
+# Starts Django server
+python3 manage.py runserver <ip-address>:<port>
+
+# Creates app
+python3 manage.py startapp <app-name>
