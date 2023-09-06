@@ -15,3 +15,6 @@ python3 manage.py makemigrations <app-name>
 
 # Inspect migration, eg. <app-name>='polls', number=0001
 python3 manage.py sqlmigrate <app-name> <number>
+
+# Checks for problems in the project without touching migrations or database
+python3 manage.py check
