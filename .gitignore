@@ -1,3 +1,9 @@
+# Virtual environment
 **/venv
-**/*.PY
+
+# Python byte files when compiled
 **/__pycache__
+
+# Everything that is used as temp file 
+# (testing feature to see how it works) has uppercase extension
+**/*.PY
