@@ -1,0 +1,4 @@
+#1 
+When using models.ForeignKey(OtherClass, on_delete=models.CASCADE)
+that basically means that we're deleting all NewClass objects that use
+OtherClass as foreign key once OtherClass object is deleted.
