@@ -21,3 +21,6 @@ python3 manage.py check
 
 # Migrates model tables into the database
 python3 manage.py migrate
+
+# Opens Django shell
+python3 manage.py shell
