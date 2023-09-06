@@ -1,0 +1,2 @@
+# Starts Django server on port 8080 on IP address: 0.0.0.0
+python3 manage.py runserver 0.0.0.0:8080
